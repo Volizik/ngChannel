@@ -1,0 +1,33 @@
+<div class="info">
+  <button class="info__toggle-btn" [class.info__toggle-btn--closed]="!isVisible" (click)="toggle()"></button>
+  <div class="info__wrap">
+    <div class="info__header">
+      <button class="info__notification info__notification--active"><img src="assets/img/icons/notifications.png" alt="notifications"></button>
+      <div class="info__drop">
+        <button class="info__drop-name">Ольга Курочкина</button>
+      </div>
+    </div>
+    <div class="info__body">
+      <div class="info__menu">
+        <button class="info__menu-btn"><span></span><span></span><span></span></button>
+      </div>
+      <img src="assets/img/user.png" alt="user photo" class="info__photo">
+      <h2 class="info__name">Ольга Курочкина</h2>
+      <span class="info__location">ДНР, Донецк</span>
+    </div>
+    <ul class="info__list">
+      <li class="info__item">
+        <span class="info__item-key">Ник:</span>
+        <span class="info__item-val">Killa Kella</span>
+      </li>
+      <li class="info__item">
+        <span class="info__item-key">Телефон:</span>
+        <span class="info__item-val">072 143 9920</span>
+      </li>
+      <li class="info__item">
+        <span class="info__item-key">Дата визита:</span>
+        <span class="info__item-val">July 12, 1988</span>
+      </li>
+    </ul>
+  </div>
+</div>
